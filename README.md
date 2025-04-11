@@ -1,6 +1,8 @@
 # tonalflex-netbird
 
-## Setup on Tonalflex Device
+Installing Netbird VPN on the embedded device running ElkOS will allow you to SSH into it from remote networks in order to develop OS-related features without physical access to the device.
+
+## Setup on VPN server device
 
 When you are prompted for password in any of below steps, the default password in ElkOS is `elk`.
 
@@ -74,7 +76,7 @@ _and confirm it's running..._
 netbird status
 ```
 
-## Setup on client device
+## Setup on VPN client device
 
 ### 1. Install Netbird client
 
